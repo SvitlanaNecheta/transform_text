@@ -1,95 +1,139 @@
-.task1 {
+.task1 { transition: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-in ;
 }
 
 .task1:hover {
+    transform: rotate(270deg);
 }
 
-.task2 {
+.task2 {transition: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-in ;
 }
 
-.task2:hover {
+.task2:hover {transform: rotateX(135deg);
+
 }
 
-.task3 {
+.task3 {transition: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-in ;
 }
 
 .task3:hover {
+    transform:rotateY(45deg)
 }
 
-.task4 {
+.task4 {transition: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-in ;
 }
 
-.task4:hover {
+.task4:hover { transform: scale(1.3) ;
 }
 
-.task5 {
+.task5 {transition: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-out ;
 }
 
 .task5:hover {
+    transform:scaleX(1.5)
 }
 
-.task6 {
+.task6 {transition: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-in ;
 }
 
-.task6:hover {
+.task6:hover { 
+    transform: scaleY(0.5) ;
 }
 
-.task7 {
+.task7 {transition: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-out ;
+
 }
 
 .task7:hover {
+        transform: skew(30deg);
 }
 
-.task8 {
+.task8 {transition: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-in-out ;
 }
 
-.task8:hover {
+.task8:hover { transform: skewX(25deg);
 }
 
-.task9 {
+.task9 {transition: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-in;
 }
 
-.task9:hover {
+.task9:hover {transform: skewY(20deg);
 }
 
-.task10 {
+.task10 { transition: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-in;
 }
 
-.task10:hover {
+.task10:hover { 
+    transform: translate(40px, 60px);
 }
 
 .task11 {
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-out;
 }
 
-.task11:hover {
+.task11:hover {transform: translateX(50px);
 }
 
 .task12 {
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function:linear;
 }
 
-.task12:hover {
+.task12:hover {transform: translateY(30px);
 }
 
-.task13 {
+.task13 {transition: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-in-out;
 }
 
-.task13:hover {
+.task13:hover {transform: translate3d(20px,20px,20px);
+    transform: rotate3d(2,2,2,90deg);
 }
 
-.task14 {
+.task14 {transition: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-in;
 }
 
-.task14:hover {
+.task14:hover {transform: translate(0,0,40px);
+    transform: rotate3d(2,3,3,40deg);
 }
 
-.task15 {
+.task15 {transition: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-out;
 }
 
-.task15:hover {
+.task15:hover {transform:matrix(0.4,1.1,1.1,0.4,1,1);
 }
 
-.task16 {
+.task16 {transition: all;
+    transition-duration: 1s;
+    transition-timing-function:linear;
 }
 
-.task16:hover {
+.task16:hover {transform: matrix3d(0.5,        0,      -0.866025, 0,  0.595877,   1.2,    -1.03209,  0,  0.866025,   0,       0.5,      0, 25.9808,     0,      15,        1);
 }
